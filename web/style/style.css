@@ -1,0 +1,141 @@
+/* 
+    Document   : newcss
+    Created on : Aug 22, 2013, 9:29:40 AM
+    Author     : edsgICT-WB52
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Verdana, sans-serif;     
+    font-size: small;
+}
+body a{
+    color: #fff;
+}
+body a:hover,header h3{
+    color: #7E0012;     
+}
+nav{        
+    float: right;    
+}
+header h2{
+    padding: 0; 
+    margin-bottom: 0;
+    font-family: Helvetica, Verdana, sans-serif;  
+    text-shadow: 2px 2px #404040;    
+}
+
+ header h3{
+    font-family: Helvetica, Verdana, sans-serif;  
+    padding: 0;    
+    margin-top: 0px;
+    border-top: 1px solid #fff;    
+    width: 480px;    
+    float:left;    
+    color:#fff;
+}
+header h2,header h3,aside{
+    margin-left: 10px;
+}
+header{
+    width: 100%;        
+    position: fixed;        
+    color: #fff;
+    padding: 5px 10px 0px 0px;
+    height: 70px;
+}
+
+#content{    
+    background-image: url('../image/bg.png');
+    padding-top: 100px;        
+}
+aside,header{
+    background: #0063a6;
+}
+aside{
+   float:left;   
+   width: 15%;   
+   padding: 5px;
+   border: 1px solid;
+}
+aside h3{
+    text-align: center;
+    color: #fff;
+}
+aside h4{
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #7E0012;
+    text-align: center;
+}
+aside p{
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    text-justify:  auto;
+}
+section{    
+    border: 1px solid black;
+    border-radius: 15px;    
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+}
+#right,nav{
+    margin-right: 10px;
+}
+#right{
+    float: right;
+    color: #fff;
+}
+#info span{
+    padding: 12px;
+    color: #fff;
+}
+#info{
+    position: fixed;
+    right:300px;
+    top: 350px;      
+    background-color: #b20019;  
+    font-size: medium;
+}
+#loading-overlay{
+    position:absolute;
+    visibility: hidden;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index: 1000;
+    background-color: rgba(120,125,106,0.1);    
+    text-align: center;
+}
+#loading-overlay span{
+    margin-top: 230px;
+    color: #4C000B;
+    position: absolute;
+    top: 20%;
+    right:50%;
+}
+
+#title{
+    text-transform: capitalize;
+}
+ #submit{
+    position: relative;
+    left:22%;
+ }
+ #text{
+     padding: 10px;
+     border: 1px solid black;
+    border-radius: 15px;        
+    width: 60%;
+    margin-left: 17%;    
+    background-color: #fff;
+ }
